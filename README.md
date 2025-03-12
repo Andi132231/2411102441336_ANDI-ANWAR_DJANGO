@@ -21,4 +21,14 @@ git clone https://github.com/
 python -m venv .venv
 ```
 
-3. 
+3. Activate .venv
+```bash
+.venv\Scripts\activate
+```
+
+4. Install dependency
+```bash
+pip install django
+```
+
+
