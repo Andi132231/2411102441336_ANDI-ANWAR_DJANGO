@@ -23,4 +23,4 @@ class Artikel(models.Model):
         return self.judul
 
     class Meta:
-         verbose_name_plural = "2. Artikel"
+        verbose_name_plural = "2. Artikel"

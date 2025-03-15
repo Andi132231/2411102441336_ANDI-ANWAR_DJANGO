@@ -30,5 +30,16 @@ python -m venv .venv
 ```bash
 pip install django
 ```
+5. intall dependency
+
+```bash
+pip install django
+pip install mysqlclient
+pip install pillow
+```
+6. update mariadb 
+```bash
+donwload mariadb
+```
 
 
