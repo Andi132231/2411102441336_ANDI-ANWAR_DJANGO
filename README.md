@@ -1,45 +1,41 @@
-# Personal Portfolio
+DJANGO WEB PROJECT
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
-[![Django](https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white)](#)
+## Fitur Website
 
-## Ada apa saja di website ini?
+### Beranda (Home)
+Menampilkan halaman utama dari website yang menjadi titik awal akses pengguna.
 
-Website ini memberitahukan tentang berita terbaru badminton 
+### Dashboard
+Menampilkan laporan grafis, manajemen data, serta informasi penting dalam tampilan visual yang informatif dan responsif.
+Buka Command Prompt (CMD)
 
-## Cara menjalankan website ini
+Tekan Win + R, lalu ketik cmd dan tekan Enter.
+Masuk ke Folder Tempat Proyek Akan Dibuat
 
-1. Clone repository ini ke komputer Anda
+Gunakan perintah cd untuk berpindah ke direktori tempat kamu ingin membuat proyek. Contoh:
+cd nama_folder
+Buat Virtual Environment
 
-```bash
-git clone https://github.com/
-```
+Gunakan perintah berikut untuk membuat virtual environment:
+py -m venv .venv
+Aktifkan Virtual Environment
 
-2. Buat virtual environment baru
-
-```bash
-python -m venv .venv
-```
-
-3. Activate .venv
-```bash
+Setelah membuat virtual environment, aktifkan dengan perintah berikut:
 .venv\Scripts\activate
-```
+Install Django
 
-4. Install dependency
-```bash
+Install Django dengan menggunakan pip:
 pip install django
-```
-5. intall dependency
+Buat Migration
 
-```bash
-pip install django
-pip install mysqlclient
-pip install pillow
-```
-6. update mariadb 
-```bash
-donwload mariadb
-```
+Setelah instalasi selesai, buat migration dengan perintah:
+python manage.py makemigrations
+Migrate Database
 
+Setelah migration dibuat, lakukan migrate ke database dengan perintah:
+python manage.py migrate
+Jalankan Server
 
+Terakhir, jalankan server Django dengan perintah:
+python manage.py runserver
+Setelah itu, buka browser dan akses http://127.0.0.1:8000/ untuk melihat website yang berjalan.
