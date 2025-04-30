@@ -13,11 +13,11 @@ class Kategori(models.Model):
         verbose_name_plural = "1. Kategori"
 
 class Artikel(models.Model):
-    judul =  models.CharField(max_length=255) 
+    judul = models.CharField(max_length=255)
     isi = models.TextField(blank=True, null=True)
     kategori = models.ForeignKey(Kategori, on_delete=models.SET_NULL, blank=True, null=True)
     author = models.ForeignKey(User, on_delete=models.PROTECT)
-    thumbnail = models.ImageField(upload_to='artikel', blank=True, null=True)
+    thumbnail = models.ImageField(upload_to='artikel',blank=True, null=True)
 
     def __str__(self):
         return self.judul

@@ -1,41 +1,47 @@
-DJANGO WEB PROJECT
+# Personal Portfolio
 
-## Fitur Website
+Website ini merupakan portfolio pribadi saya yang berisi tentang informasi diri saya.
 
-### Beranda (Home)
-Menampilkan halaman utama dari website yang menjadi titik awal akses pengguna.
+## Ada apa saja isi dihalaman website saya?
 
-### Dashboard
-Menampilkan laporan grafis, manajemen data, serta informasi penting dalam tampilan visual yang informatif dan responsif.
-Buka Command Prompt (CMD)
+1. Halaman home - Menampilkan ringkasan dari masing-masing halaman.
+2. Halaman about - Menampilkan tulisan yang saya tulis.
 
-Tekan Win + R, lalu ketik cmd dan tekan Enter.
-Masuk ke Folder Tempat Proyek Akan Dibuat
+## setelah itu saya menambahkan apps dan template pada project saya serta crud
+1. apps yang pertama bernama berita 
+2. dan yang kedua bernama peangguna
+3. Menambahkan template dashboard
+4. dan menambahkan template halaman
+5. Menambahkan CRUD
 
-Gunakan perintah cd untuk berpindah ke direktori tempat kamu ingin membuat proyek. Contoh:
-cd nama_folder
-Buat Virtual Environment
-
-Gunakan perintah berikut untuk membuat virtual environment:
+## Cara Menjalankan Project
+1. buka cmd
+2. lalu masuk kedalam folder website dan masuk ke direktorinya
+3. setelah itu kita buat venv, saya memakai env. dengan mengetik 
+```
 py -m venv .venv
-Aktifkan Virtual Environment
-
-Setelah membuat virtual environment, aktifkan dengan perintah berikut:
-.venv\Scripts\activate
-Install Django
-
-Install Django dengan menggunakan pip:
+```
+4. untuk mengaktifkannya, kita masuk ke folder env, masuk lagi ke folder Scripts, setelah itu kita ketik 
+```
+activate
+```
+5. kita sudah didalam lingkungkan virtual, setelah itu kita install django-nya dengan mengetik 
+```
 pip install django
-Buat Migration
-
-Setelah instalasi selesai, buat migration dengan perintah:
-python manage.py makemigrations
-Migrate Database
-
-Setelah migration dibuat, lakukan migrate ke database dengan perintah:
-python manage.py migrate
-Jalankan Server
-
-Terakhir, jalankan server Django dengan perintah:
-python manage.py runserver
-Setelah itu, buka browser dan akses http://127.0.0.1:8000/ untuk melihat website yang berjalan.
+```
+6. dan kemudian kita membuat project baru django dengan mengetik  (saya menggunakan newwebsite)
+```
+django-admin startproject websiteku
+```
+7. setelah itu jika ingin membuat apps kita bisa mengetik
+```
+python manage.py startapp "kita dapat membuat sesuai keinginan kita"
+```
+8. serelah itu, untuk membuat migration kita dapat mengetikkan
+```
+python manage.py makemigrations "nama apps yang kita buat"
+```
+9. Setelah project dan apps telah dibuat dan untuk mengeceknya kita bisa mengetik 
+```
+py manage.py runserver
+```
