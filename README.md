@@ -1,48 +1,85 @@
-# Django Web Project
+# ⚡ Django Web Project — Quick Start Guide
 
-Selamat datang di proyek Django ini!  
-Website ini adalah aplikasi web sederhana namun fungsional yang memiliki halaman utama serta dashboard interaktif dengan visualisasi data.
+## 🚀 Fitur Utama Website
 
----
+### 🏡 Home  
+Halaman depan sebagai pintu utama pengguna mengenal website.
 
-## Fitur Website
-
-🔹 **Beranda (Home)**  
-&nbsp;&nbsp;&nbsp;&nbsp;Halaman awal sebagai titik masuk pengguna.
-
-🔹 **Dashboard**  
-&nbsp;&nbsp;&nbsp;&nbsp;Menampilkan grafik, data interaktif, dan manajemen informasi secara real-time.
+### 📈 Dashboard  
+Visualisasi data & laporan interaktif yang stylish dan responsif.
 
 ---
 
-## Cara Menjalankan Proyek
+## ⚙️ Apa Saja di Website Ini?
 
-```bash
-# 1. Masuk ke direktori proyek
-cd nama_folder
+- **HOME**  
+  Menampilkan halaman utama yang ramah pengguna dan informatif.
 
+- **Dashboard**  
+  Menampilkan laporan grafis, manajemen informasi, dan data-data penting secara interaktif.
+
+---
+
+## 🪄 Cara Cepat Menjalankan Proyek Django
+
+### 1. Buka Terminal / Command Prompt  
+Tekan **Win + R**, ketik `cmd`, lalu tekan Enter.  
+💻
+
+### 2. Masuk ke Direktori Proyek  
 ```bash
-# 2. Buat virtual environment
+cd nama_folder_target
+📂
+
+3. Buat Virtual Environment
+```bash
 py -m venv .venv
+🛠️
 
-```bash
-# 3. Aktifkan virtual environment
-.venv\Scripts\activate       
+4. Aktifkan Virtual Environment
+Windows:
 
-```bash
-# 4. Install Django
+bash
+Copy
+Edit
+.venv\Scripts\activate
+Mac/Linux:
+
+bash
+Copy
+Edit
+source .venv/bin/activate
+⚡
+
+5. Install Django
+bash
+Copy
+Edit
 pip install django
+📥
 
-```bash
-# 5. Generate dan jalankan migrasi database
+6. Buat Migration
+bash
+Copy
+Edit
 python manage.py makemigrations
+🗂️
+
+7. Terapkan Migration ke Database
+bash
+Copy
+Edit
 python manage.py migrate
+🔄
 
-```bash
-# 6. Jalankan server Django
+8. Jalankan Server
+bash
+Copy
+Edit
 python manage.py runserver
+🚀
 
-```bash
-# 7. Akses website di browser
-# Buka alamat berikut:
-# http://127.0.0.1:8000/
+9. Buka Browser dan Akses Website
+Buka alamat berikut di browser:
+http://127.0.0.1:8000/
+🌍
