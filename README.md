@@ -1,78 +1,42 @@
-# ⚡ Django Web Project
+# Django Web Project
 
-Selamat datang di proyek Django ini! Proyek ini adalah website sederhana namun fungsional yang memiliki fitur halaman utama dan dashboard dengan visualisasi data.
-
----
-
-## 📝 Fitur Website
-
-- **🏠 Beranda (Home)**  
-  Halaman utama sebagai titik awal navigasi pengguna.
-
-- **📊 Dashboard**  
-  Menyajikan laporan grafis, manajemen informasi, dan data dalam antarmuka yang interaktif serta responsif.
+Selamat datang di proyek Django ini!  
+Website ini adalah aplikasi web sederhana namun fungsional yang memiliki halaman utama serta dashboard interaktif dengan visualisasi data.
 
 ---
 
-## 🔧 Cara Menjalankan Proyek
+## Fitur Website
 
-### ⚙️ Persiapan Awal
+🔹 ** Beranda (Home)**  
+&nbsp;&nbsp;&nbsp;&nbsp;Halaman awal sebagai titik masuk pengguna.
 
-💡 Website ini mencakup:
-- **HOME** – Tampilan awal sebagai halaman pengenalan.
-- **DASHBOARD** – Visualisasi data dan pengelolaan informasi dinamis.
+🔹 ** Dashboard**  
+&nbsp;&nbsp;&nbsp;&nbsp;Menampilkan grafik, data interaktif, dan manajemen informasi secara real-time.
 
-### 🪄 Langkah-langkah:
+---
 
-1. **Buka Command Prompt (CMD)**
-   ```bash
-   Win + R → ketik `cmd` → tekan Enter
-Masuk ke Direktori Proyek
+## Cara Menjalankan Proyek
 
-bash
-Copy
-Edit
+```bash
+# 1. Masuk ke direktori proyek
 cd nama_folder
-Buat Virtual Environment
 
-bash
-Copy
-Edit
+# 2. Buat virtual environment
 py -m venv .venv
-Aktifkan Virtual Environment
 
-bash
-Copy
-Edit
-.venv\Scripts\activate
-Install Django
+# 3. Aktifkan virtual environment
+.venv\Scripts\activate       
 
-bash
-Copy
-Edit
+# 4. Install Django
 pip install django
-Generate Migration
 
-bash
-Copy
-Edit
+# 5. Generate dan jalankan migrasi database
 python manage.py makemigrations
-Migrate Database
-
-bash
-Copy
-Edit
 python manage.py migrate
-Jalankan Server
 
-bash
-Copy
-Edit
+# 6. Jalankan server Django
 python manage.py runserver
-🌐 Akses Website
-Buka browser dan akses:
 
-cpp
-Copy
-Edit
-http://127.0.0.1:8000/
+# 7. Akses website di browser
+# Buka alamat berikut:
+# http://127.0.0.1:8000/
